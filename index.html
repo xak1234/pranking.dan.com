@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Loses it All in Leeds!</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f1f1f1;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #232323;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -50px;
+            border: 5px solid white;
+        }
+        .header-content {
+            margin-top: 70px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        .subscribe-section {
+            margin-top: 10px;
+        }
+        .subscribe-button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .thumbnail {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .thumbnail img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .thumbnail h3 {
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+        .thumbnail p {
+            font-size: 0.9rem;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="header-image.jpg" alt="Dan Loses it All in Leeds" class="header-image">
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic" width="100" height="100">
+        <div class="header-content">
+            <h1>Dan Loses it All in Leeds!</h1>
+            <p>2.2 Million Subscribers</p>
+            <div class="subscribe-section">
+                <button class="subscribe-button">Subscribe</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <h2>Latest Pranks</h2>
+        <div class="thumbnail-grid">
+            <div class="thumbnail">
+                <img src="roulette-prank.jpg" alt="Roulette Prank">
+                <h3>Roulette Prank</h3>
+                <p>1.5M views • 1 day ago</p>
+            </div>
+            <div class="thumbnail">
+                <img src="monk-gone-mad.jpg" alt="Monk Gone Mad Prank">
+                <h3>Dan Loses it Monk Gone Mad!</h3>
+                <p>1M views • 21 hours ago</p>
+            </div>
+            <div class="thumbnail">
+                <img src="leeds-prank.jpg" alt="Leeds Prank">
+                <h3>Dan Loses it Wrong in Leeds</h3>
+                <p>2M views • 2 days ago</p>
+            </div>
+            <div class="thumbnail">
+                <img src="mall-prank.jpg" alt="Mall Prank">
+                <h3>Dan Loses it All at the Mall!</h3>
+                <p>2.2M views • 3 days ago</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
